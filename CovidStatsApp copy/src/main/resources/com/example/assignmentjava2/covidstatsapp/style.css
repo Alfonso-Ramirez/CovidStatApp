@@ -1,0 +1,35 @@
+/* MainView styles */
+.root {
+    -fx-background-color: #f0f8ff;
+}
+
+.text-field {
+    -fx-padding: 10px;
+    -fx-border-color: #007acc;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+}
+
+HBox, VBox .button {
+    -fx-alignment: center;
+    -fx-background-color: #007acc;
+    -fx-text-fill: white;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+}
+
+.list-view {
+    -fx-border-color: #007acc;
+    -fx-border-radius: 5px;
+}
+
+/* DetailsView styles */
+.label {
+    -fx-padding: 10px;
+    -fx-font-size: 14px;
+}
+
+HBox, VBox .button {
+    -fx-alignment: center;
+    -fx-background-color: #ff6347;
+}

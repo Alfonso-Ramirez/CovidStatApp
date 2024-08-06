@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.assignmentjava2.covidstatsapp.controller.DetailsController">
+    <Label text="Country:" />
+    <Label fx:id="countryLabel" style="-fx-font-size: 18px; -fx-alignment: center; -fx-font-weight: bold;"/>
+    <Label text="Region:" />
+    <Label fx:id="regionLabel" style="-fx-font-size: 18px; -fx-alignment: center; -fx-font-weight: bold;"/>
+    <Label text="Total Cases:" style="-fx-font-size: 18px; -fx-alignment: center; -fx-font-weight: bold;"/>
+    <Label fx:id="totalCasesLabel" style="-fx-font-size: 18px; -fx-alignment: center; -fx-font-weight: bold;"/>
+    <Button text="Back to Main" onAction="#handleBackToMain" />
+</VBox>
